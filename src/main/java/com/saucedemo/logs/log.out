@@ -1,0 +1,52 @@
+2022-05-18 16:05:964 INFO  ManageDriver :33 - Launching Chrome Browser
+2022-05-18 17:05:661 INFO  ManageDriver :33 - Launching Chrome Browser
+2022-05-18 17:05:390 INFO  ManageDriver :33 - Launching Chrome Browser
+2022-05-18 17:05:861 INFO  ManageDriver :33 - Launching Chrome Browser
+2022-05-18 17:05:614 INFO  ManageDriver :33 - Launching Chrome Browser
+2022-05-18 17:05:110 INFO  ManageDriver :33 - Launching Chrome Browser
+2022-05-18 17:05:76 WARN  HashedWheelTimer :672 - An exception was thrown by TimerTask.
+java.lang.IllegalStateException: cannot be started once stopped
+	at io.netty.util.HashedWheelTimer.start(HashedWheelTimer.java:338)
+	at io.netty.util.HashedWheelTimer.newTimeout(HashedWheelTimer.java:413)
+	at org.asynchttpclient.netty.channel.DefaultChannelPool.scheduleNewIdleChannelDetector(DefaultChannelPool.java:95)
+	at org.asynchttpclient.netty.channel.DefaultChannelPool.access$900(DefaultChannelPool.java:43)
+	at org.asynchttpclient.netty.channel.DefaultChannelPool$IdleChannelDetector.run(DefaultChannelPool.java:378)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:669)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:744)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:469)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:745)
+2022-05-18 17:05:644 INFO  ManageDriver :33 - Launching Chrome Browser
+2022-05-18 17:05:248 INFO  ManageDriver :33 - Launching Chrome Browser
+2022-05-18 17:05:128 INFO  ManageDriver :33 - Launching Chrome Browser
+2022-05-18 17:05:196 INFO  HomePage :33 - Adding product to the cart: [[ChromeDriver: chrome on WINDOWS (5ef79b4ee8349de23307a249e7628a1c)] -> xpath: //button[@class='btn btn_primary btn_small btn_inventory']]
+2022-05-18 17:05:487 INFO  HomePage :33 - Adding product to the cart: [[ChromeDriver: chrome on WINDOWS (5ef79b4ee8349de23307a249e7628a1c)] -> xpath: //button[@class='btn btn_primary btn_small btn_inventory']]
+2022-05-18 18:05:433 INFO  ManageDriver :33 - Launching Chrome Browser
+2022-05-18 18:05:484 INFO  HomePage :36 - Adding product to the cart: [[ChromeDriver: chrome on WINDOWS (8ea849a85e557aa1367eb30d6af6af38)] -> xpath: //button[@class='btn btn_primary btn_small btn_inventory']]
+2022-05-18 18:05:704 INFO  HomePage :36 - Adding product to the cart: [[ChromeDriver: chrome on WINDOWS (8ea849a85e557aa1367eb30d6af6af38)] -> xpath: //button[@class='btn btn_primary btn_small btn_inventory']]
+2022-05-18 18:05:220 INFO  ManageDriver :33 - Launching Chrome Browser
+2022-05-18 18:05:257 INFO  HomePage :36 - Adding product to the cart: [[ChromeDriver: chrome on WINDOWS (d6d37a9d87500dca9846c154de3ac785)] -> xpath: //button[@class='btn btn_primary btn_small btn_inventory']]
+2022-05-18 18:05:527 INFO  HomePage :36 - Adding product to the cart: [[ChromeDriver: chrome on WINDOWS (d6d37a9d87500dca9846c154de3ac785)] -> xpath: //button[@class='btn btn_primary btn_small btn_inventory']]
+2022-05-18 18:05:357 INFO  ManageDriver :33 - Launching Chrome Browser
+2022-05-18 18:05:107 INFO  HomePage :36 - Adding product to the cart: [[ChromeDriver: chrome on WINDOWS (f50a9b782d57240bd43da76d4195d53a)] -> xpath: //button[@class='btn btn_primary btn_small btn_inventory']]
+2022-05-18 18:05:357 INFO  HomePage :36 - Adding product to the cart: [[ChromeDriver: chrome on WINDOWS (f50a9b782d57240bd43da76d4195d53a)] -> xpath: //button[@class='btn btn_primary btn_small btn_inventory']]
+2022-05-18 18:05:176 INFO  ManageDriver :33 - Launching Chrome Browser
+2022-05-18 18:05:451 INFO  HomePage :36 - Adding product to the cart: [[ChromeDriver: chrome on WINDOWS (78aba3d8b2a72e33a2ea3783f193e3b5)] -> xpath: //button[@class='btn btn_primary btn_small btn_inventory']]
+2022-05-18 18:05:402 INFO  HomePage :36 - Adding product to the cart: [[ChromeDriver: chrome on WINDOWS (78aba3d8b2a72e33a2ea3783f193e3b5)] -> xpath: //button[@class='btn btn_primary btn_small btn_inventory']]
+2022-05-18 18:05:880 INFO  ManageDriver :33 - Launching Chrome Browser
+2022-05-18 18:05:812 INFO  HomePage :36 - Adding product to the cart: [[ChromeDriver: chrome on WINDOWS (0d8bcff15022fb2f96fdb048e54dd3a8)] -> xpath: //button[@class='btn btn_primary btn_small btn_inventory']]
+2022-05-18 18:05:271 INFO  HomePage :36 - Adding product to the cart: [[ChromeDriver: chrome on WINDOWS (0d8bcff15022fb2f96fdb048e54dd3a8)] -> xpath: //button[@class='btn btn_primary btn_small btn_inventory']]
+2022-05-18 18:05:779 INFO  ManageDriver :33 - Launching Chrome Browser
+2022-05-18 18:05:843 INFO  HomePage :36 - Adding product to the cart: [[ChromeDriver: chrome on WINDOWS (468880990a4692e5b6a1f9247f9a9c61)] -> xpath: //button[@class='btn btn_primary btn_small btn_inventory']]
+2022-05-18 18:05:69 INFO  HomePage :36 - Adding product to the cart: [[ChromeDriver: chrome on WINDOWS (468880990a4692e5b6a1f9247f9a9c61)] -> xpath: //button[@class='btn btn_primary btn_small btn_inventory']]
+2022-05-19 20:05:380 INFO  ManageDriver :33 - Launching Chrome Browser
+2022-05-19 20:05:726 INFO  HomePage :32 - clickOnUserName : [[ChromeDriver: chrome on WINDOWS (30d61b7676cb5905f455f0bbd52fa32a)] -> xpath: //input[@id='user-name']]
+2022-05-19 20:05:862 INFO  HomePage :36 - clickOnPassword : [[ChromeDriver: chrome on WINDOWS (30d61b7676cb5905f455f0bbd52fa32a)] -> xpath: //input[@id='password']]
+2022-05-19 20:05:239 INFO  HomePage :40 - clickOnLoginButton : Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='login-button']'
+2022-05-19 20:05:590 INFO  HomePage :36 - Adding product to the cart: [[ChromeDriver: chrome on WINDOWS (30d61b7676cb5905f455f0bbd52fa32a)] -> xpath: //button[@class='btn btn_primary btn_small btn_inventory']]
+2022-05-19 20:05:744 INFO  HomePage :36 - Adding product to the cart: [[ChromeDriver: chrome on WINDOWS (30d61b7676cb5905f455f0bbd52fa32a)] -> xpath: //button[@class='btn btn_primary btn_small btn_inventory']]
+2022-05-19 20:05:928 INFO  HomePage :45 - clickOnShoppingCart : [[ChromeDriver: chrome on WINDOWS (30d61b7676cb5905f455f0bbd52fa32a)] -> xpath: //body/div[@id='root']/div[@id='page_wrapper']/div[@id='contents_wrapper']/div[@id='header_container']/div[1]/div[3]/a[1]]
+2022-05-19 20:05:88 INFO  HomePage :21 - Clicking on checkOut : Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='checkout']'
+2022-05-19 20:05:883 INFO  HomePage :46 - clickOnContinue : Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='continue']'
+2022-05-19 20:05:81 INFO  HomePage :50 - clickOnFinishButton : Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='finish']'
+2022-05-19 20:05:137 INFO  HomePage :21 - thankYouMessage : [[ChromeDriver: chrome on WINDOWS (30d61b7676cb5905f455f0bbd52fa32a)] -> xpath: //h2[contains(text(),'THANK YOU FOR YOUR ORDER')]]
